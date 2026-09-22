@@ -24,7 +24,7 @@ The top-level KPI cards provide a quick snapshot of the overall market performan
 
 ## Technical Details
 * **Tool**: Microsoft Power BI Desktop
-* **Data Source**: Microsoft Excel (`zomato_data.xlsx`) containing 500 cleaned records mapped across two relational sheets.
+* **Data Source**: Microsoft Excel (`Delivery dataset.xlsx`) containing 500 cleaned records mapped across two relational sheets.
 * **Core Techniques**: 
   * Power Query data transformation and cleaning.
   * Relational data modeling (linking primary restaurant data with city/pincode dimension tables).
@@ -32,10 +32,10 @@ The top-level KPI cards provide a quick snapshot of the overall market performan
   * Geospatial mapping with enabled security settings for Bing Maps integration.
 
 ## Setup & Installation
-1. Clone or download the repository containing `Zomato_Insights_Dashboard.pbix` and `zomato_data.xlsx`.
+1. Clone or download the repository containing `Restaurant & Food Delivery Analyzer.pbix` and `Delivery dataset.xlsx`.
 2. Ensure both files are stored in the same local directory.
 3. Open the `.pbix` file in Power BI Desktop.
 4. If the visuals fail to load or prompt a file path error, click **Transform Data** on the Home ribbon to open the Power Query Editor.
-5. Click **Data Source Settings**, select the existing Excel file path, click **Change Source**, and browse to select the `zomato_data.xlsx` file on your local machine.
+5. Click **Data Source Settings**, select the existing Excel file path, click **Change Source**, and browse to select the `Delivery dataset.xlsx` file on your local machine.
 6. Click **OK**, then **Close & Apply**.
 7. Click **Refresh** on the Home ribbon to render all dashboard visuals
